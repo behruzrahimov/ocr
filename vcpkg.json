@@ -1,0 +1,19 @@
+{
+  "name" : "ocr",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "d8079ecd674fe5632277d78d761333467955adb1",
+  "dependencies" : [ {
+    "name" : "tesseract",
+    "version>=" : "5.3.3",
+    "$comment" : "  # this is heuristically generated, and may not be correct\n\n  find_package(Tesseract CONFIG REQUIRED)\n\n  target_link_libraries(main PRIVATE Tesseract::libtesseract)\n"
+  }, {
+    "name" : "leptonica",
+    "version>=" : "1.83.1"
+  }, {
+    "name" : "gtest",
+    "version>=" : "1.14.0"
+  }, {
+    "name" : "opencv2",
+    "version>=" : "2.4.13.7#19"
+  } ]
+}
